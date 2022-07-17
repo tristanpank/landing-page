@@ -14,6 +14,8 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .header .header-logo {
@@ -171,4 +173,12 @@ a:link, a:visited, a:hover, a:active {
     font-weight: bold;
     padding-left: 16px;
     padding-right: 16px;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background-color: #1f2937;
+    color: #f9faf8
 }
