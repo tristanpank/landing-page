@@ -134,3 +134,41 @@ a:link, a:visited, a:hover, a:active {
     font-size: 24px;
     font-weight: bold;
 }
+
+.content4 {
+    padding-top: 36px;
+    padding-bottom: 36px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content4 .content4-box {
+    padding: 24px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.content4-box .c4h {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.content4-box .c4-button {
+    border-radius: 10px;
+    background-color: transparent;
+    color: #f9faf8;
+    border: 2px solid;
+    font-weight: bold;
+    padding-left: 16px;
+    padding-right: 16px;
+}
